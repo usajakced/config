@@ -1,0 +1,63 @@
+
+
+.wpfh-stats {font-size:1.6em;}
+.wpfh-stats a{text-decoration:none;}
+.wpfh-stats a:hover{text-decoration:underline;}
+.wpfh-stat-color-1{background-color:#387EE9;}
+.wpfh-stat-color-2{background-color: #84A912}
+.wpfh-stat-color-3{background-color: #F5332E}
+.wpfh-stat-color-4{background-color: #676767}
+.wpfh-stat-color-5{background-color: #9A9705}
+.wpfh-stat{ color:#FFF;padding:20px;float:left;margin:10px; text-align:left}
+.wpfh-stat{padding-left:20px;}
+.wpfh-stat .wpfh-stats-count-number{width:70px;display:block;float:left;}
+.wpfh-stat .wpfh-stats-count{margin-bottom:5px;}
+.wpfh-stat .wpfh-stats-count-label{margin-left:10px;display:block;float:left;}
+.wpfh-stat a{color:#FFF}
+
+.wpfh-stat h2{font-size:1.3em;color:#FFF;border-bottom:1px solid #FFF;padding-bottom:10px;}
+
+#wpfh-header ul
+{
+list-style:none;margin:0px;padding:0px;
+
+}
+
+#wpfh-header li
+{
+list-style:none;margin:0px;padding:0px;float:left;margin-right:2px;
+
+}
+
+#wpfh-header a
+{
+float:left;	display:block;
+background-color: #c3c9ce;
+color: #ffffff;
+
+text-decoration: none;
+padding-left: 5px;
+padding-right: 5px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+margin-right:1px;
+font-size:1.1em;font-weight:bold;
+
+
+}
+#wpfh-header .wpfh-clear {clear:both;border-top:1px solid  #c3c9ce}
+#wpfh-header #current a{ background-color:#456782;color:#FFF;}
+#wpfh-header a:hover
+{
+background-color: #c3c9ce;
+color: #000066;
+}
+
+
+
+@media (max-width: 720px) {
+	#wpfh-header{margin-top:10px;}
+	#wpfh-header li {float:none;}
+	#wpfh-header a{display:block;font-size:1em; border-radius:0px;margin:0px;margin-bottom:2px;width:45%;float:left;margin-right:2px;}
+	#wpfh-header .wpfh-clear {clear:both;border-top:none;}
+}
