@@ -1,0 +1,328 @@
+/* ==========================================================================
+   wpfhmodal's necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.wpfhmodal-is-locked {
+  overflow: hidden;
+
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.wpfhmodal,
+[data-wpfhmodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.wpfhmodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.wpfhmodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.wpfhmodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.wpfhmodal-overlay,
+.wpfhmodal-wrapper {
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.wpfhmodal {
+  position: relative;
+  text-align:left;
+
+  outline: none;
+ z-index: 9999;
+  text-size-adjust: 100%;
+    margin-top:120px;
+}
+
+.wpfhmodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+
+
+
+/* ==========================================================================
+   wpfhmodal's default mobile first theme
+   ========================================================================== */
+
+/* Default theme styles for the background */
+
+.wpfhmodal-bg.wpfhmodal-is-opening,
+.wpfhmodal-bg.wpfhmodal-is-opened {
+  filter: blur(3px);
+}
+
+/* Default theme styles of the overlay */
+
+.wpfhmodal-overlay {
+  background: rgba(43, 46, 56, 0.9);
+}
+
+.wpfhmodal-overlay.wpfhmodal-is-opening,
+.wpfhmodal-overlay.wpfhmodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.wpfhmodal-overlay.wpfhmodal-is-opening {
+  animation-name: wpfhmodal-overlay-opening-keyframes;
+}
+
+.wpfhmodal-overlay.wpfhmodal-is-closing {
+  animation-name: wpfhmodal-overlay-closing-keyframes;
+}
+
+/* Default theme styles of the wrapper */
+
+.wpfhmodal-wrapper {
+  padding: 10px 10px 0;
+}
+
+/* Default theme styles of the modal dialog */
+
+.wpfhmodal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 35px;
+
+  transform: translate3d(0, 0, 0);
+
+  color: #2b2e38;
+  background: #fff;
+}
+
+.wpfhmodal.wpfhmodal-is-opening,
+.wpfhmodal.wpfhmodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.wpfhmodal.wpfhmodal-is-opening {
+  animation-name: wpfhmodal-opening-keyframes;
+}
+
+.wpfhmodal.wpfhmodal-is-closing {
+  animation-name: wpfhmodal-closing-keyframes;
+}
+
+/* Vertical align of the modal dialog */
+
+.wpfhmodal,
+.wpfhmodal-wrapper:after {
+  vertical-align: middle;
+}
+
+/* Close button */
+
+.wpfhmodal-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  overflow: visible;
+
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  transition: color 0.2s;
+  text-decoration: none;
+
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.wpfhmodal-close:hover,
+.wpfhmodal-close:focus {
+  color: #2b2e38;
+}
+
+.wpfhmodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 25px;
+  line-height: 35px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  width: 35px;
+
+  content: "\00d7";
+  text-align: center;
+}
+
+/* Dialog buttons */
+
+.wpfhmodal-confirm,
+.wpfhmodal-cancel {
+  font: inherit;
+
+  display: inline-block;
+  overflow: visible;
+
+  min-width: 110px;
+  margin: 0;
+  padding: 12px 0;
+
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+
+  border: 0;
+  outline: 0;
+}
+
+.wpfhmodal-confirm {
+  color: #fff;
+  background: #81c784;
+}
+
+.wpfhmodal-confirm:hover,
+.wpfhmodal-confirm:focus {
+  background: #66bb6a;
+}
+
+.wpfhmodal-cancel {
+  color: #fff;
+  background: #e57373;
+}
+
+.wpfhmodal-cancel:hover,
+.wpfhmodal-cancel:focus {
+  background: #ef5350;
+}
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+
+.wpfhmodal-confirm::-moz-focus-inner,
+.wpfhmodal-cancel::-moz-focus-inner,
+.wpfhmodal-close::-moz-focus-inner {
+  padding: 0;
+
+  border: 0;
+}
+
+/* Keyframes
+   ========================================================================== */
+
+@keyframes wpfhmodal-opening-keyframes {
+  from {
+    transform: scale(1.05);
+
+    opacity: 0;
+  }
+  to {
+    transform: none;
+
+    opacity: 1;
+
+    filter: blur(0);
+  }
+}
+
+@keyframes wpfhmodal-closing-keyframes {
+  from {
+    transform: scale(1);
+
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+
+    opacity: 0;
+
+    filter: blur(0);
+  }
+}
+
+@keyframes wpfhmodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wpfhmodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 641px) {
+  .wpfhmodal {
+    max-width: 700px;
+  }
+}
+
+/* IE8
+   ========================================================================== */
+
+.lt-ie9 .wpfhmodal-overlay {
+  background: #2b2e38;
+}
+
+.lt-ie9 .wpfhmodal {
+  width: 700px;
+}
