@@ -1,0 +1,80 @@
+/* CSS Document */
+
+.wpfh-funeral-results{list-style:none;margin:15px 0px;}
+.wpfh-funeral-results li {list-style:none;padding:5px;border-bottom:1px dotted #CCC;margin:5px;font-size:1.2em;}
+.wpfh-funeral-results li{color:#333;text-decoration:none}
+.wpfh-widget-woocommerce-flowers{text-align:center;padding:5px 10px;}
+
+.headstone-type{padding:10px;max-width:320px;margin:0px auto;}
+.headstone-type a{display:block;margin-top:10px;margin-bottom:10px;font-size:1.6em;padding:10px;border:1px solid #CCC;color:#333;text-decoration:none;border-radius:5px;}
+.headstone-type a:hover{ background-color:#EFEFEF;color:#000;}
+.headstone-type a span{font-size:1.3em; float:left;margin-right:30px;}
+.wpfh_link_view{padding:10px;margin:10px;border-radius:10px; background-color:#FEFEF;border:1px solid #CCC}
+.wpfh_link_view_image{border-radius:10px;}
+.wpfh_link_view_image img{width:150px;border-radius:10px; margin:10px;float:left;}
+
+#wpfh_ajax_login_widget_message{font-size:12px;margin:0px;padding:0px;margin-top:-10px; text-align:center;font-weight:bold;}
+#wpfh-profile-menu{ float:left;width:20%;min-width:150px;}
+#wpfh-profile{float:left;width:70%;padding:10px;min-width:150px;}
+#wpfh-profile-menu ul{list-style:none;padding:0px;padding:0px; }
+
+#wpfh-profile-menu ul li a{   background-repeat:no-repeat;display:block; text-align:center;margin-left:5px; background-color: #e9e9ce;border-radius:5px;padding:3px 0px 3px 0px;margin-top:5px;color:#333;font-weight:bold;text-decoration:none;}
+#wpfh-profile-menu ul li a:hover{color:#000; background-color:#cdcdb2}
+
+.wpfh-form-input{clear:both}
+.wpfh-form-input label{width:20%;float:left;min-width:150px;}
+.wpfh-form-input .input_side{float:left;border:1px solid #000;display:block;  background-image:none}
+.wpfh_profile_postings td{ vertical-align:top}
+.wpfh_profile_postings{ width:95%;margin:0px auto;background-color:#EFEFEF;padding:10px;border-radius:10px;margin-bottom:10px;}
+.wpfh_profile_postings a{color:#000}
+
+
+
+
+.wpfh-timeline {
+  list-style: none !important;
+}
+.wpfh-timeline ul li {
+    list-style-type: none !important;list-style: none !important;
+}
+.wpfh-timeline > li {
+  margin-bottom: 60px;list-style:none;
+}
+.entry ul li {
+    list-style-type: none;
+}
+/* for Desktop */
+
+.wpfh-search-half{width:50%;float:left;}
+.wpfh-search-half-inner{padding:10px;}
+@media ( min-width : 640px ){
+  .wpfh-timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+	
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+}
+
+
