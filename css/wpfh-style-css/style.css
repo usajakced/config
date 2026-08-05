@@ -1,0 +1,399 @@
+
+
+.wpfh-dashboard-grid{
+display:grid; 
+ grid-template-columns:1fr 4fr 2fr;
+    
+}
+.wpfh-dashboard-grid .wpfh-dashboard-item{
+padding:5px;
+   
+    border-bottom:1px #CCC dotted;
+}
+
+.wpfh-add-obit-line a.button ,.wpfh-dashboard-grid a.button{    font-size: 12px;
+    padding: 5px 5px;border-radius:5px;}
+.wpfh-add-obit-line{background-color:#FFF;float:left;width:230px;padding:5px;margin:5px;text-align:center;position:relative}
+
+.wpfh-add-obit-edit{    background-color: #CCC;
+    padding: 5px;}
+.wpfh-add-obit-line-comments {
+    position: absolute;
+    top: 30px;
+    /* right: 30px; */
+     background: rgba(0, 0, 0, 0.3);
+    width: calc(100% - 10px );
+    left: 5px;
+}
+.wpfh-add-obit-line-comments{color:#FFF;}
+.wpfh-additional-image-text{    background-color: #FFFFFF;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+    text-align: right;padding:5px}
+
+
+.wpfh-additional-image-item{    float: left;
+    display: block;
+    padding: 20px;
+    background-color: #FFF;
+    margin: 10px;}
+	ul.potato-menu {
+	margin:0;
+	padding:0;
+	width:auto;
+	list-style:none;
+}
+.wpfh-funeral-list{font-size:1.4em;}
+
+.jssocials-shares a {color:#FFF;}
+.jssocials-shares a:hover{ text-decoration:none}
+
+.wpfh-obit-alternate-left .light-a-candle-button a{width:100% !important;padding-left:0px;}
+.wpfh-obit-alternate-left .wpfh-view-counter{background-color:#333;color:#FFF;text-align:center;padding:5px 10px;}
+#wpfh-alternate-header ul{    margin: 0 0 0px 0;
+   adding: 0 0 0 0px; }
+#wpfh-alternate-header ul,#wpfh-alternate-header li{list-style:none;padding:0px  !important;margin:0px !important;}
+#wpfh-alternate-header ul li a{display:block;background-color: #9F9F9F;border-bottom:1px dotted #FFF; color:#FFF;padding:5px 10px;}
+.wpfh-alternate-header{}
+.wpfh-obit-alternate-left{float:left;width:calc(30% - 10px);padding:5px;background-color:#EFEFEF}
+
+.wpfh-obit-alternate-right{float:left;width:calc(70% - 10px);padding:5px;}
+.wpfh-obit-alternate-right .wpfh_main_obit_info{min-height:150px; background-color:#EFEFEF}
+.wpfh-obit-alternate-title{}
+.wpfh-obit-alternate-image{margin:5px auto;}
+
+@media (max-width: 768px) {
+	.wpfh-social-share{width:100%;float:none;}
+.wpfh-obit-alternate-title,.wpfh-obit-alternate-dates,.wpfh-obit-alternate-left{ text-align:center}	
+
+.wpfh-obit-alternate-left{float:none;width:100%;}
+.wpfh-obit-alternate-right{float:none;width:100%;}
+
+
+
+}
+/* 1.0.0 - 1.0.1 CSS */
+.wpfh-search-button{text-align:right}
+.wpfh_nag{ background-image:url(../images/logo.png); background-repeat:no-repeat; background-position:left;padding:10px 10px 10px 205px;;height:150px;font-size:1.3em;margin:10px; background-color:#FFF }
+.wpfh_error_info{padding:5px;margin:3px; background-color:#f6edc5;color: #494B07;}
+.wpfh_error{padding:5px;margin:3px; background-color:#ffd5d5;color:red;}
+.wpfh_success{padding:5px;margin:3px; background-color: #E2FCD8;color:green;}
+.wpfh-required{color:red;}
+h1.topmenu-header{font-size:2.2em;margin:10px;padding-bottom:10px;padding-top:10px;background-color:#F3F3F3;l}
+#topmenu{padding:5px;margin-top:5px;margin-bottom:5px; }
+#topmenu .button{font-size:1.7em !important;}
+#submenu{margin-top:15px; }
+#submenu  .button{font-size:1.0em !important;}
+#wpfh_message_icons{font-size:18px}
+#wpfh_message_icons a{display:block;width:120px; background-color:#E9EFFE;border-radius:5px;float:left;margin-right:10px;margin-bottom:5px; text-align:center}
+#wpfh_message_icons a:hover{ background-color: #C4E8FD}
+#wpfh_message_icons a.selected{background-color: #C4E8FD}
+.wpfh_message{ background-color: #F9F0BD;border:2px dashed #BB9626;padding:5px;margin:5px;color:#BB9626;font-weight:bold;font-size:1.4em;}
+.wpfh_message_form_fields{font-size:14px;}
+.wpfh_message_form_holder{min-height:180px;background-color:#FFF;border:1px solid #CCC;padding:10px;border-radius:5px; background-color:#F4F4F4}
+.wpfh_modal{ border-radius:10px;}
+.wpfh_modal a { text-decoration:none !important}
+
+#wpfh_main_obit_left{float:left;width:48%;min-width:320px;padding:1%}
+#wpfh_main_obit_right{float:left;width:48%; font-size:12px;padding-top:10px;min-width:320px;padding:1%;}
+#wpfh_main_obit_right{border-radius:5px;margin-top:18px;}
+.wpfh_main_obit_info h2 {margin:0px;padding:0px;font-size:1.8em; }
+.wpfh_main_obit_info p {margin:0px;padding:0px;font-weight:500;color:#000}
+.wpfh_main_obit_info{ border-radius:10px;padding:10px;margin-top:!0px;margin-bottom:10px;}
+.wpfh_main_obit_info {}
+
+.wpfh-pagination{margin-top:10px;}
+.wpfh-pagination a{padding:5px;border:1px solid #CCC;margin:2px; background-color:#FFF;color:#333; text-decoration:none}
+#wpfh_search{ background-color:#EAEAEA;padding:10px;border-radius:5px;margin-top:10px;margin-bottom:10px;}
+#wpfh_search .search_column{float:left;padding:10px;}
+#wpfh_label{}
+
+.wpfh_obit p {margin:0px;padding:0px;}
+.wpfh_obit{ border-radius:10px;padding:10px;border-bottom:1px dashed #CCC; }
+.wpfh_obit_image{float:left;width:18%;padding:1%}
+.wpfh_obit_image img{width:100%;}
+.wpfh_obit_obit {float:left;width:78%;padding:1%;padding-top:20px;}
+.wpfh_obit_button { text-align:right;margin:10px;}
+
+.wpfh_obit_title {font-size:22px;padding:0px;margin:0px }
+.wpfh_obit_title a{font-size:22px;font-weight:bold;}
+.wpfh_obit_date {padding:0px;margin:0px; font-style:italic;font-size:.9em;margin-bottom:15px;}
+.wpfh_obit_vet { background-image:url(../images/vet-us.jpg) !important;color:#333}
+.wpfh_obit_vet a {color:#333 !important;}
+.wpfh_veteran{ background-image:url(../images/usa.png);height:32px; background-repeat:no-repeat; background-position:left;text-indent:35px;font-size:1.4em;font-weight:bold;     max-width: 150px;
+    margin: 0px auto;}
+
+
+.wpfh_obit_inner{ margin:5px;padding:5px}
+
+.wpfh_obit_list{border-bottom:1px dotted #CCC;padding:2px;padding-top:10px;padding-bottom:10px;}
+.wpfh_obit_list a {display:block;font-size:1.1em;text-decoration:none}
+.wpfh_obit_list_name{float:left;}
+.wpfh_obit_list_dates{float:left;padding:2px;font-size:.8em;}
+
+
+.wpfh_obit_square{border-bottom:1px dotted #CCC;padding:2px;padding-top:10px;padding-bottom:10px;}
+.wpfh_obit_square p{margin:0px;padding:0px;font-size:1.1em;font-weight:bold;}
+.wpfh_obit_square .wpfh-list-square-image{float:left;padding:0px 5px;}
+.wpfh_obit_square a {display:block;font-size:1.1em;text-decoration:none}
+.wpfh_obit_square_name{float:left;}
+.wpfh_obit_square_dates{float:left;padding:2px;font-size:.8em;}
+
+.wpfh_obit_thumbnail_name{height:60px;}
+.wpfh_obit_thumbnail{padding:10px;width:150px;margin:10px;border-radius:10px; text-align:center;float:left;}
+.wpfh_obit_thumbnail a{ text-decoration:none;font-weight:bold;}
+.wpfh_posting{padding:10px;margin-top:10px;background-color:#EFEFEF;}
+.wpfh_posting p{padding:0px;margin:0px;margin-bottom:15px;}
+.wpfh_posting .wpfh_posting_left{float:left;width:20%;padding:5px; font-size:.8em;}
+.wpfh_posting .wpfh_posting_right{float:left;width:74%;padding:5px; background-color:#FFF;min-height:100px;box-shadow:1px 1px 5px #CCC;margin-left:10px;}
+
+
+/* tool tip */
+
+.wpfh_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.wpfh_button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.wpfh_button:active {
+	position:relative;
+	top:1px;
+}
+
+ .ui-tooltip, .arrow:after {
+        background: black;
+        border: 2px solid white;
+    }
+    .ui-tooltip {
+        padding: 10px 20px;
+        color: white;
+        border-radius: 20px;
+        font: bold 14px "Helvetica Neue", Sans-Serif;
+        text-transform: uppercase;
+        box-shadow: 0 0 7px black;
+    }
+    .arrow {
+        width: 70px;
+        height: 16px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+        bottom: -16px;
+    }
+    .arrow.top {
+        top: -16px;
+        bottom: auto;
+    }
+    .arrow.left {
+        left: 20%;
+    }
+    .arrow:after {
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: -20px;
+        width: 25px;
+        height: 25px;
+        box-shadow: 6px 5px 9px -9px black;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        tranform: rotate(45deg);
+    }
+    .arrow.top:after {
+        bottom: -20px;
+        top: auto;
+    }
+	
+/* 1.0.3 css **/
+
+#wpfh_search_widget{margin-top:20px; }
+#wpfh_search_widget input{width:96%;margin:1%;border:1px solid #CCC;padding:1%}
+
+
+
+#wpfh_search_widget label{clear:both;float:left;width:130px;margin-bottom:10px;}
+
+
+#wpfh_guest_info label{width:100px;display:block;float:left;font-weight:bold;}
+
+ .wpfh_form p{min-width:320px;}
+.wpfh_form label{clear:both;float:none;width:100%;margin-bottom:10px;margin-top:10px;border-bottom:1px solid #CCC}
+.wpfh_form span{padding:0px;float:none;width:100%;margin-bottom:10px;margin-top:10px;}
+.wpfh_form textarea{width:80%;}
+/* 1.2.7 **/
+
+#wpfh-obit-subnav{margin-top:10px;margin-bottom:10px; }
+#wpfh-obit-subnav a{  background-position:10% 50%; background-repeat:no-repeat;width:100px;display:block;float:right; text-align:center;margin-left:10px; background-color: #EFEFEF;border-radius:5px;padding:3px 0px 3px 0px;margin-top:5px; text-decoration:none;font-weight:bold;font-size:12px;width:110px;}
+
+#wpfh-obit-subnav a.wpfh-printer{background-image:url(../images/printer.png) !important;}
+#wpfh-obit-subnav a.wpfh-fb{background-image:url(../images/facebook.png) !important;}
+.wpfh_gallery_container img{margin:2px;}
+
+.wpfh_gallery_filter{text-align:right;background-color:#EFEFEF;padding:5px;margin:5px;}
+.wpfh_gallery_filter a { 
+    margin-right: 10px; 
+    color:#666;
+    text-decoration:none;
+	padding:2px;
+}
+ 
+.wpfh_gallery_filter a.current { 
+    font-weight:bold; background-color:#333;color:#fff
+}
+ 
+
+ 
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+@media print 
+{
+    .noPrint 
+    {
+        display:none;
+    }
+}
+/* 1.3.5 */
+
+#wp-admin-bar-manage-guestbook a { background-color:#5E1111;color:#FFF}
+
+/* 1.5.5 */
+
+#searchcrumbs{ font-size:1.2em;padding:10px;}
+
+.obit_left_column{width:48%;float:left;min-width:320px;}
+.obit_right_column{width:48%;float:left;min-width:320px;}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.wpfh-form p, .wpfh-form h2, .wpfh-form h3, .wpfh-form h1{clear:both;padding:10px;}
+.wpfh-form label{width:30%;float:left;}
+.wpfh-form span{width:70%;float:left;}
+
+
+
+.wpfp_password_protect{padding:10px;margin:10px auto; background-color:#EFEFEF;border-radius:10px; text-align:center}
+.wpfp_password_protect strong{font-size:1.3em;  }
+
+.funeralpress-two-column p {clear:both; text-align:left}
+.funeralpress-two-column .l-column{float:left;width:50%;}
+.funeralpress-two-column .r-column{float:left;width:50%}
+
+
+.sp_cu_manage{}
+
+
+form.funeralpress_form p {clear:both; text-align:left}
+form.funeralpress_form p.two_column {float:left;width:50%;clear:none}
+
+form.funeralpress_form p label{display:block;}
+form.funeralpress_form p.two_column label {float:none;display:block;width:100%;}
+.funeralpress_form input[type=text] {padding:5px;width:calc(100% - 10px);margin:5px;}
+
+.wpfh-view-counter{font-weight:bold;color:#333}
+
+@media (max-width: 720px) {
+
+
+	
+.funeralpress-two-column p {clear:both; text-align:left}
+.funeralpress-two-column .l-column{float:none;width:100%; text-align:center}
+.funeralpress-two-column .r-column{float:none;width:100%;}
+	
+	
+form.funeralpress_form p {clear:both; text-align:left}
+form.funeralpress_form p label{float:none;width:100%;display:block;}
+form.funeralpress_form p.two_column {float:none;width:100%;clear:both;}
+
+
+	
+.wpfh_obit_title{ text-align:center}
+ .wpfh_obit{ text-align:center}
+ .wpfh_obit_obit{width:100%;text-align:left;float:none;min-width:inherit}
+ .wpfh_obit_image{float:none;text-align:center;width:auto !important}
+ .wpfh_obit_button{ text-align:center}
+ .wpfh_obit_date{ text-align:center} 
+ #wpfh-obit-subnav a{width:45%;float:left;}
+ #wpfh_main_obit_left{float: none;width:100%;min-width: inherit}
+#wpfh_main_obit_right{float: none;width:100%;min-width: inherit}
+ #wpfh_main_obit h2{ text-align:center}
+
+.wpfh_main_obit_info {text-align:center}
+
+.breadcrumb-list{display:none;}
+.wpfh_posting .wpfh_posting_left{float:none;width:100%;}
+.wpfh_posting .wpfh_posting_right{float:none;width:98%; margin:0px auto;}
+.wpfh_posting .wpfh_posting_right img{width:100%;}
+.wpfh_posting .wpfh_posting_right object{width:100% !important}
+}
