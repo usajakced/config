@@ -1,0 +1,124 @@
+/*
+Theme Name: 	Newspaper Child
+Theme URI: 		http://tagdiv.com
+Description: 	Premium WordPress template, clean and easy to use WP.
+Version: 		9.7.3
+Author: 		tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+Template: Newspaper
+
+*/
+
+.td-post-content .post-ratings img {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+	box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+	color:#fff;
+	border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+	color:#fff;
+}
+
+.td-post-content #slider {
+	margin-bottom: 30px;
+	height: 430px;
+}
+/*****/
+/** obituaries page css **/
+.obituaries-shortcode-module #wpfh_search input[type="submit"] {
+	padding: 12px 15px;
+}
+.obituaries-shortcode-module form > h3 {font-family: 'Open Sans', 'Open Sans Regular', sans-serif;text-transform: uppercase;font-weight: 700;}
+.obituaries-shortcode-module form {
+	font-family: 'Open Sans', 'Open Sans Regular', sans-serif;
+	font-size: 14px;
+}
+.add-event-page-shortcode .mec-fes-form {
+	background-color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+}
+/** EVENT PAGE CSS **/
+.post-type-archive-mec-events .mec-text-input-search input[type="search"] {
+	width: calc(100% - 57px);
+}
+.page-id-15 .mec-search-form .mec-text-input-search input[type="search"] {
+	width: calc(100% - 50px);
+}
+.add-event-page-shortcode #mec_fes_form, .add-event-page-shortcode .mec-fes-form-top-actions {
+	max-width: 920px;
+}
+.add-event-page-shortcode #mec_fes_form .mec-fes-form-cntt {
+	max-width: 620px;
+	width: calc(100% - 300px);
+}
+.page-id-28169 #mec-event-links .mec-form-row:not(:last-child) {
+	display: none;
+}
+.single-post .td-post-author-name {
+    display: block !important;
+}
